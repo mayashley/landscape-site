@@ -1,22 +1,23 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import styles from "../css/navbar.module.css"
-import { MdMenu } from "react-icons/md"
-import socialLinks from "../constants/Links"
-import logo from "../images/placeholderLogo.jpg"
-
+import { FaAlignRight } from "react-icons/fa"
+import links from "../constants/links"
+// import socialIcons from "../constants/social-icons"
+// import logo from "../images/placeholderLogo.png"
 const Navbar = () => {
-  const [isOpen, setNavbar] = useState(false)
+  const [isOpen, setNav] = useState()
   const toggleNav = () => {
-    setNavbar(isOPen => !isOpen)
+    setNav(isOpen => !isOpen)
   }
+
   return (
     <nav className={styles.navbar}>
-      <div classname={styles.nav}>
+      <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img className={styles.logoImg} src={logo} alt="lawn logo" />
-          <button className={styles.logoBtn} type="button" onClick={toggleNav}>
-            <MdMenu className={styles.logoIcon} />
+          {/* <img src={logo} alt="placeholder logo" /> */}
+          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
+            <FaAlignRight className={styles.logoIcon} />
           </button>
         </div>
         <ul
@@ -26,7 +27,7 @@ const Navbar = () => {
               : `${styles.navLinks}`
           }
         >
-          {socialLinks.map((item, index) => {
+          {links.map((item, index) => {
             return (
               <li key={index}>
                 <Link to={item.path}>{item.text}</Link>
@@ -34,8 +35,23 @@ const Navbar = () => {
             )
           })}
         </ul>
+        {/* <div className={styles.navSocialLinks}>
+          {socialIcons.map((item, index) => {
+            return (
+              <a
+                key={index}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {item.icon}
+              </a>
+            )
+          })}
+        </div> */}
       </div>
     </nav>
   )
 }
+
 export default Navbar

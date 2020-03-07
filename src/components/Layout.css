@@ -29,9 +29,7 @@ body {
   background: var(--mainWhite);
   line-height: 1.4;
   font-size: 1rem;
-  height: 100%;
-  width: 100%;
-  border: 1px solid red;
+  
 }
 
 
@@ -57,7 +55,7 @@ p {
 .defaultHero {
   min-height: calc(100vh - 62px);
   background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/placeholderLogo.jpg") center/cover no-repeat;
+    url("../images/lawncareImg.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
