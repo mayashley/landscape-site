@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 
 :root {
-  --primaryColor: #b603bd;
+  --primaryColor: #771a7ac2;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -52,9 +52,9 @@ p {
 }
 
 
-.defaultHero {
+.Hero {
   min-height: calc(100vh - 62px);
-  background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(160, 160, 160, 0.247), rgba(0, 0, 0, 0.7)),
     url("../images/lawncareImg.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
