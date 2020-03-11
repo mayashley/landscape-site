@@ -1,6 +1,6 @@
 .footerWrapper {
   margin-top: auto;
-  background-color: #681769;
+  background-color: var(--primaryColor);
   padding: 1rem;
   text-align: center;
   color: white;
@@ -19,7 +19,7 @@
   justify-content: center;
 }
 .theLinks a:hover {
-  color: var(--darkGrey);
+  color: var(--mainGrey);
 }
 .SocialIconsWrapper a {
   display: inline-block;

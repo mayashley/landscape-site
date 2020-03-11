@@ -20,7 +20,7 @@ margin-bottom: 2rem;
 h4 {
     text-align: center;
     letter-spacing: 4px;
-    color: var(--primaryColor);
+    color:var(--darkGrey);
     margin:1rem;
 }
 .title{

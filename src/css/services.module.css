@@ -1,5 +1,5 @@
 .services {
-    background: var(--mainGrey);
+    background: var(--offWhite);
     padding: 4rem 0;
    
   }
@@ -15,7 +15,7 @@
     text-align: center;
   }
   .service span {
-    color: #681769;
+    color: var(--primaryColor);
     padding: 0.5rem;
     display: inline-block;
     font-size: 2rem;

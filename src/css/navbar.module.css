@@ -45,7 +45,7 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--darkGrey);
+  color: var(--mainGrey);
 }
 
 @media screen and (min-width: 576px) {
