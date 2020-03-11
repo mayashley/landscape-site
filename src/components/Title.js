@@ -21,6 +21,7 @@ h4 {
     text-align: center;
     letter-spacing: 4px;
     color: var(--primaryColor);
+    margin:1rem;
 }
 .title{
     color: var(--darkGrey);

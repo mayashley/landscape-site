@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 
 :root {
-  --primaryColor: #671769c2;
+  --primaryColor: #681769;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #b3b3b3;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -74,6 +74,7 @@ p {
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
+  margin: 1rem 0;
 }
 
 
