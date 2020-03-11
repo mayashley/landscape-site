@@ -1,75 +1,77 @@
-.navbar{
-    background-color:var(--primaryColor);
-    position: fixed;
-    top: 0;
+.navbar {
+  background-color: var(--primaryColor);
+  position: fixed;
+  top: 0;
   width: 100%;
-  z-index:10;
+  z-index: 10;
 }
 .nav-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 1.25rem;
+}
+.logo-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.logo-btn:hover {
+  cursor: pointer;
+}
+.logo-icon {
+  color: var(--mainWhite);
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  transition: var(--mainTransition);
+  height: 0;
+  overflow: hidden;
+}
+.show-nav {
+  height: 180px;
+  
+}
+.nav-links a {
+  display: block;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+}
+.nav-links a:hover {
+  color: var(--darkGrey);
+}
+
+@media screen and (min-width: 576px) {
+  .navbar {
+    padding: 0 2rem;
   }
+}
+
+@media screen and (min-width: 992px) {
+
   .logo-btn {
-    background: transparent;
-    border: none;
-    outline: none;
+    display: none;
   }
-  .logo-btn:hover {
-    cursor: pointer;
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
   }
-  .logo-icon {
-    color: var(--mainWhite);
-    font-size: 1.5rem;
-  }
-  
   .nav-links {
-    list-style-type: none;
-    transition: var(--mainTransition);
-    height: 0;
-    overflow: hidden;
+    height: auto;
+    display: flex;
   }
-  .show-nav {
-    height: 180px;
-  }
-  .nav-links a {
-    display: block;
-    padding: 1rem 1.25rem;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: var(--mainWhite);
-    transition: var(--mainTransition);
-    font-weight: bold;
-    letter-spacing: var(--mainSpacing);
-  }
-  .nav-links a:hover {
-    color: var(--darkGrey);
-  }
- 
-  @media screen and (min-width: 576px) {
-    .navbar {
-      padding: 0 2rem;
-    }
-  }
-  
-  @media screen and (min-width: 992px) {
-    .logo-btn {
-      display: none;
-    }
-    .nav-center {
-      max-width: 1170px;
-      margin: 0 auto;
-      display: flex;
-      /* justify-content: space-between; */
-      justify-content: center;
-      align-items: center;
-    }
-    .nav-links {
-      height: auto;
-      display: flex;
-    }
-    /* .nav-social-links {
+  /* .nav-social-links {
       display: flex;
       line-height: 0;
     }
@@ -83,5 +85,6 @@
       color: var(--mainBlack);
       transform: translateY(-5px);
     } */
-  }
-  
+}
+
+/*  the show nav was originally at 180px and nothing else...no media queries for ir either in case u want to change it back later */
