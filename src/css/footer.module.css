@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
 }
-.theLinks a {
+/* .theLinks a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -20,7 +20,7 @@
 }
 .theLinks a:hover {
   color: var(--mainGrey);
-}
+} */
 .SocialIconsWrapper a {
   display: inline-block;
   margin: 1rem 1rem 0 1rem;
@@ -37,16 +37,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footerWrapper {
+  /* .footerWrapper {
     align-items: center;
-  }
-  .theLinks a {
+  } */
+  /* .theLinks a {
     display: inline-block;
-  }
-  .footerWrapper {
-    justify-content: space-evenly;
+  } */
+  /* .footerWrapper {
+    justify-content:center;
     flex-direction: row;
-  }
+  } */
   .textWrapper {
     display: flex;
     font-size: 1rem;
