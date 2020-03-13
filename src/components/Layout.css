@@ -62,9 +62,21 @@ p {
   align-items: center;
 }
 
+.btn-white {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainWhite);
+  background: transparent;
+  border: 2px solid var(--mainWhite);
+  padding: 0.9rem 1.6rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  margin: 1rem 0;
+}
 
 
-.btn-white,
 .btn-primary {
   text-transform: uppercase;
   text-decoration: none;
