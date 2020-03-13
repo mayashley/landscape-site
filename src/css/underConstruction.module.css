@@ -1,0 +1,33 @@
+.constructionPageWrapper{
+display:flex;
+border: 1px solid red;
+flex-direction: column;
+min-height: calc(100vh - 62px);
+background-color: rgba(136, 255, 0, 0.829);
+color: red !important;
+
+}
+
+.imageContainer {
+border: 1px solid red;
+display:flex;
+flex-direction: row;
+justify-content: center;
+/* max-width:50%; */
+}
+
+.imageContainer img {
+    border: 1px solid red;
+    display:flex;
+    height:200px;
+
+    }
+
+/* .constructionPageWrapper button{
+
+} */
+
+.Banner{
+    border: 1px solid red;
+   margin-top:3rem;
+}
