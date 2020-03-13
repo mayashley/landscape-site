@@ -54,9 +54,10 @@ p {
 
 
 .Hero {
-  min-height: calc(100vh - 62px);
+  /* min-height: calc(100vh - 62px); */
+height:100vh;
   background: linear-gradient(rgba(160, 160, 160, 0.247), rgba(0, 0, 0, 0.7)),
-    url("../images/aboutImg.jpg") center/cover no-repeat;
+  url("../images/aboutImg.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
