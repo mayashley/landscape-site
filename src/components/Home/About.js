@@ -1,6 +1,6 @@
 import React from "react"
 import Title from "../Title"
-import aboutImg from "../../images/aboutImg.jpg"
+import aboutImg from "../../images/aboutUsImg.jpg"
 import styles from "../../css/about.module.css"
 
 const About = () => {
