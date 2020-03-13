@@ -3,7 +3,7 @@ display:flex;
 border: 1px solid red;
 flex-direction: column;
 min-height: calc(100vh - 62px);
-background-color: rgba(136, 255, 0, 0.829);
+background-color: rgb(211, 211, 211);
 color: red !important;
 
 }
@@ -13,21 +13,22 @@ border: 1px solid red;
 display:flex;
 flex-direction: row;
 justify-content: center;
-/* max-width:50%; */
 }
 
-.imageContainer img {
+/* .imageContainer img {
     border: 1px solid red;
     display:flex;
-    height:200px;
+    height:180px;
 
-    }
+    } */
 
-/* .constructionPageWrapper button{
-
-} */
+ .buttonWrapper{
+display:flex;
+justify-content: center;
+margin: 3rem 0;
+}
 
 .Banner{
     border: 1px solid red;
-   margin-top:3rem;
+   margin-top:4rem;
 }

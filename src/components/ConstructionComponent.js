@@ -9,13 +9,12 @@ const ConstructionComponent = () => {
     <div className={styles.constructionPageWrapper}>
       <div className={styles.Banner}>
         <Banner
-          title="Under Construction" info="Please be patient with us while our
-          business grows.We Hope that you will vist this page again soon!"
-        ></Banner>
+          title="Under Construction"
+        > <img src={constructionImg} alt="page under construction" /></Banner>
       </div>
-      <div className={styles.imageContainer}>
+      {/* <div className={styles.imageContainer}>
       <img src={constructionImg} alt="page under construction" />
-      </div>
+      </div> */}
       <div className={styles.buttonWrapper}>
         <button type="button" className="btn-primary">
           Go Back
