@@ -2,6 +2,7 @@ import React from "react"
 import Title from "../Title"
 import styles from "../../css/services.module.css"
 import ServiceIcons from "../../constants/ServiceIcons"
+import {Link} from 'gatsby'
 
 
 const OurServices = () => {
@@ -20,7 +21,7 @@ const OurServices = () => {
         })}
       </div>
       <div className={styles.serviceBtn}>
-      <button type="button" className="btn-primary">View More</button>
+      <Link type="button" to="/Services" className="btn-primary">View More</Link>
       </div>
     </section>
   )

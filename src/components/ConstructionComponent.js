@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from 'gatsby'
 import Banner from "../components/Banner"
 import constructionImg from "../images/constructionImg.png"
 import styles from "../css/underConstruction.module.css"
@@ -17,9 +17,9 @@ const ConstructionComponent = () => {
       <img src={constructionImg} alt="page under construction" />
       </div> */}
       <div className={styles.buttonWrapper}>
-        <button type="button" className="btn-white">
+        <Link type="button" to='/' className="btn-white">
           Go Back
-        </button>
+        </Link>
       </div>
     </div>
   )

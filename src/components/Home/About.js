@@ -22,7 +22,7 @@ const About = () => {
             pulvinar enim. Proin a justo non ligula faucibus facilisis eget ac
             felis. 
           </p>
-          <a href="tel:5551234567" className="btn-primary">Get A QUote</a>
+          <a href="tel:5551234567" className="btn-primary">Get A Quote</a>
         </article>
       </div>
     </div>
