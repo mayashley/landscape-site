@@ -2,6 +2,7 @@ import React from "react"
 import Title from "../Title"
 import aboutImg from "../../images/aboutUsImg.jpg"
 import styles from "../../css/about.module.css"
+import {Link} from 'gatsby'
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
             pulvinar enim. Proin a justo non ligula faucibus facilisis eget ac
             felis. 
           </p>
-          <a href="tel:5551234567" className="btn-primary">Get A Quote</a>
+          <Link to='Contact' className="btn-primary">Get A Quote</Link>
         </article>
       </div>
     </div>
