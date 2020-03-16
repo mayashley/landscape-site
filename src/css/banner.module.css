@@ -8,7 +8,7 @@
   .banner h1 {
     font-size: 2.2rem;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     letter-spacing: 4px;
     text-shadow: 1px 3px var(--mainBlack);
   }
@@ -17,6 +17,8 @@
     width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
+    font-size: 1.6rem;
+    text-shadow: 1px 2px var(--mainBlack);
   }
   @media screen and (min-width: 768px) {
     .banner h1 {

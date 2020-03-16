@@ -10,8 +10,8 @@ export default () => (
     <Layout>
       <Hero>
         <Banner
-          title="Landscaping Company"
-          info="Landscaping service in southern Ohio"
+          title="Ferrell Landscaping"
+          info="Proudly serving Southern Ohio since 2020"
         ></Banner>
       </Hero>
       <About />

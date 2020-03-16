@@ -32,6 +32,9 @@ margin: .5rem 0;
 .Banner{
    margin-top: 3rem;
 }
+.Banner p{
+    font-size: 1rem;
+}
 
 @media screen and (min-width: 768px) {
     .Banner{
