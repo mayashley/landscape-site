@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <ul
           className={
-            isOpen
+            !!isOpen
               ? `${styles.navLinks} ${styles.showNav}`
               : `${styles.navLinks}`
           }
