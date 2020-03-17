@@ -8,7 +8,7 @@ const ContactItems = () => {
       <Title title="contact" subtitle="us" />
       <div className={styles.center}>
         <form className={styles.form}>
-          <div>
+          <div className={styles.inputContainer}>
             <input
               type="text"
               name="name"
@@ -17,7 +17,7 @@ const ContactItems = () => {
               placeholder="First Name"
             />
           </div>
-          <div>
+          <div className={styles.inputContainer}>
             <input
               type="text"
               name="name"
@@ -26,7 +26,7 @@ const ContactItems = () => {
               placeholder="Last Name"
             />
           </div>
-          <div>
+          <div className={styles.inputContainer}>
             <input
               type="email"
               name="email"
@@ -35,7 +35,7 @@ const ContactItems = () => {
               placeholder="yourEmail@email.com"
             />
           </div>
-          <div>
+          <div className={styles.inputContainer}>
             <textarea
               name="message"
               id="message"
@@ -44,7 +44,7 @@ const ContactItems = () => {
               placeholder="Please leave us a message here."
             />
           </div>
-          <div>
+          <div className={styles.submitContainer}>
             <input
               type="submit"
               value="submit here"

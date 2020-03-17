@@ -21,10 +21,13 @@ h4 {
     text-align: center;
     letter-spacing: 4px;
     color:var(--darkGrey);
-    margin:1rem;
+    margin:2rem;
 }
 .title{
-    color: var(--darkGrey);
+    color: rgba(0, 0, 0, 0.76);
+}
+.subtitle{
+  color: var(--primaryColor);
 }
 span{
     display: block;
@@ -32,7 +35,7 @@ span{
 @media (min-width: 576px){
     span{
         display: inline-block;
-        margin: 0 0.35rem;
+        margin: 0 0.16rem;
     }
 }
 `

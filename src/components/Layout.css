@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 
 :root {
-  --primaryColor: #428600;
+  --primaryColor:  #428600;
   --mainWhite: rgb(240, 240, 240);
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #cfcfcf;
-  --darkGrey: #aaaaaa;
+  --darkGrey:#aaaaaa ;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@
 body {
   font-family: "Lato", sans-serif;
   color: var(--mainBlack);
-  background: var(--mainWhite);
+  background: rgb(236, 236, 236);
   line-height: 1.4;
   font-size: 1rem;
   
@@ -56,7 +56,7 @@ p {
 .Hero {
   /* min-height: calc(100vh - 62px); */
 height:100vh;
-  background: linear-gradient(rgba(160, 160, 160, 0.247), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(65, 65, 65, 0.068), rgba(0, 0, 0, 0.7)),
   url("../images/aboutImg.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
