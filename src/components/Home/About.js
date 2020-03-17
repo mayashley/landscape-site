@@ -2,7 +2,8 @@ import React from "react"
 import Title from "../Title"
 // import aboutImg from "../../images/aboutUsImg.jpg"
 import styles from "../../css/about.module.css"
-import {Link} from 'gatsby'
+// import {Link} from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import {useStaticQuery,graphql} from 'gatsby'
 import Img from 'gatsby-image'
 
@@ -41,7 +42,7 @@ const About = () => {
             pulvinar enim. Proin a justo non ligula faucibus facilisis eget ac
             felis. 
           </p>
-          <Link to='Contact' className="btn-primary">Get A Quote</Link>
+          <AniLink fade to='Contact' className="btn-primary">Get A Quote</AniLink>
         </article>
       </div>
     </div>

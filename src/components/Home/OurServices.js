@@ -2,7 +2,8 @@ import React from "react"
 import Title from "../Title"
 import styles from "../../css/services.module.css"
 import ServiceIcons from "../../constants/ServiceIcons"
-import {Link} from 'gatsby'
+// import {Link} from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
 const OurServices = () => {
@@ -21,7 +22,7 @@ const OurServices = () => {
         })}
       </div>
       <div className={styles.serviceBtn}>
-      <Link type="button" to="/Services" className="btn-primary">View More</Link>
+      <AniLink fade type="button" to="/Services" className="btn-primary">View More</AniLink>
       </div>
     </section>
   )
