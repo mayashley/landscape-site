@@ -7,7 +7,10 @@ const ContactItems = () => {
     <section className={styles.contact}>
       <Title title="contact" subtitle="us" />
       <div className={styles.center}>
-        <form className={styles.form}>
+        <form 
+         action="https://formspree.io/mvorwnwo"
+         method="POST"
+        className={styles.form}>
           <div className={styles.inputContainer}>
             <input
               type="text"
@@ -15,6 +18,7 @@ const ContactItems = () => {
               id="name"
               className={styles.formControl}
               placeholder="First Name"
+              required
             />
           </div>
           <div className={styles.inputContainer}>
@@ -24,6 +28,7 @@ const ContactItems = () => {
               id="name"
               className={styles.formControl}
               placeholder="Last Name"
+              required
             />
           </div>
           <div className={styles.inputContainer}>
@@ -33,6 +38,7 @@ const ContactItems = () => {
               id="email"
               className={styles.formControl}
               placeholder="yourEmail@email.com"
+              required
             />
           </div>
           <div className={styles.inputContainer}>
@@ -42,6 +48,7 @@ const ContactItems = () => {
               rows="8"
               className={styles.formControl}
               placeholder="Please leave us a message here."
+              required
             />
           </div>
           <div className={styles.submitContainer}>

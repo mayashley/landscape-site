@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>Paragraph Here</h4>
+          <h4>Who We Are...</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lorem
             nulla, posuere sed massa vitae, cursus tempor lectus. Morbi at
